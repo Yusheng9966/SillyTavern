@@ -1,0 +1,18 @@
+{
+    "name": "SillyTavern Codespace",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/sh",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-typescript-next"
+    ],
+    "postCreateCommand": "npm install",
+    "remoteUser": "node"
+}
